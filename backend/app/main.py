@@ -29,13 +29,6 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# Add middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["https://planets-map.select"],
-    allow_credentials=True,
-)
-
 # Include API routers
 app.include_router(health_router)
 app.include_router(classification_router, prefix=settings.v1_api_prefix)
