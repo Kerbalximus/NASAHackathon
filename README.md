@@ -10,12 +10,6 @@ The AI module is responsible for processing and classifying Martian surface imag
 - **Image Augmentation**: Tools for preprocessing and augmenting datasets.
 - **Model Training**: A PyTorch-based deep learning model (`mars_classifier.pt`) trained on Martian surface images.
 - **Utilities**: Scripts for data cleaning and validation.
-
-#### Key Files:
-- `augmentation.py`: Handles data augmentation.
-- `training.ipynb`: Jupyter notebook for training the model.
-- `landmarks_map-proj-v3_classmap.csv`: Class mapping for surface features.
-
 #### Usage:
 1. Prepare the dataset and run `augmentation.py` for preprocessing.
 2. Train the model using `training.ipynb`.
@@ -29,11 +23,6 @@ The backend provides RESTful APIs for interacting with the AI model and managing
 #### Key Features:
 - **Classification API**: Accepts images and returns classification results.
 - **Health Check API**: Monitors the status of the backend services.
-
-#### Key Files:
-- `main.py`: Entry point for the backend application.
-- `classification.py`: Implements the classification logic.
-- `docker-compose.yml` & `Dockerfile`: Configuration for containerized deployment.
 
 #### Usage:
 1. Install dependencies using `requirements.txt`.
