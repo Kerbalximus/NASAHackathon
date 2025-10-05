@@ -6,7 +6,7 @@ import io
 from app.core.model.classification import model, device, val_tfms
 
 
-def classify_image(image_bytes, T=2.0, tau=0.5):
+def classify_image(image_bytes, T=2.0, tau=0.35):
     image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
     x = val_tfms(image).unsqueeze(0).to(device)
     with (
