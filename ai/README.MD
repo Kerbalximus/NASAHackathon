@@ -1,4 +1,4 @@
-# AI Module - Planets-Map
+# NASA Hackathon Project: Mars Image Classification: AI Module
 
 This directory contains the AI/ML components for training a deep learning model to classify Martian surface landmarks from HiRISE orbital imagery.
 
@@ -155,14 +155,3 @@ If you use this dataset in your work, please cite:
 ## Testing
 
 Sample test images are provided in the `test_images/` directory for quick model validation.
-
-## Notes
-
-- All images are preprocessed to 227×227 pixels
-- The model expects grayscale images
-- Data augmentation helps balance class distribution
-- The checker script uses multithreading for fast validation
-
-## License
-
-This project was developed for the NASA Hackathon. Please refer to the main repository for license information.
