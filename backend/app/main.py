@@ -32,7 +32,7 @@ app = FastAPI(
 # Add middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://planets-map.select"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
