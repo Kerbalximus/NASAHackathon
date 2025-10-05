@@ -32,11 +32,11 @@ backend/
 ```
 
 ### RUNRUNRUN
-'''
+```
 git clone https://github.com/Kerbalximus/NASAHackathon.git
 cd NASAHackathon/backend
 docker-compose up --build
-'''
+```
 
 ## Usage
 ### Classification API
