@@ -40,10 +40,7 @@ docker-compose up --build
 
 ## Usage
 ### Classification API
-1. Send a POST request to `/api/v1/classification` with an image file.
+1. Send a POST request to `/api/v1/classification/image` with an image file.
 2. Receive the classification results in JSON format.
-### Health Check
-- Send a GET request to `/api/v1/health` to verify the service status.
-
 ---
 *Developed during the NASA Hackathon 2025.*
