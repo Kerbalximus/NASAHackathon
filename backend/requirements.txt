@@ -1,0 +1,9 @@
+fastapi
+structlog
+pydantic
+pydantic-settings
+python-multipart
+uvicorn[standard]
+torch
+torchvision
+pillow
